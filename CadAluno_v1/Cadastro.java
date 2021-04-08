@@ -18,22 +18,20 @@ public class Cadastro{
     
     // inserir
     public boolean inserir (Aluno a){
-        // toDo
         this.cad[tamanhoF] = a;
         tamanhoF += 1;
 
-        return true;//me xupa julio arakaki
+        return true;
     }
     // remover
     public boolean remover (String ra){
-        //toDo
         
-        for(int macaco = 0 ; macaco < tamanhoF; macaco++ ){
-            String primatoide = this.cad[macaco].getRa();
+        for(int s = 0 ; s < tamanhoF; s++ ){
+            String primatoide = this.cad[s].getRa();
             if( primatoide.equals(ra) == true){
-                int index = macaco;
+                int index = s;
                 if(this.tamanhoF > 0 && this.tamanhoF >= index ) {
-                    for(int n = macaco; n < this.tamanhoF; n++){
+                    for(int n = s; n < this.tamanhoF; n++){
                         this.cad[n] = this.cad[n+1];
 
                     }
@@ -44,27 +42,10 @@ public class Cadastro{
         return true;
     }
 
-    /*
-        int n;
-        if (list.tamanho > 0 && list.tamanho >= p)
-        {
-            for (n = p; n < list.tamanho; n++)
-            {
-                list.vetor[n] = list.vetor[n + 1];
-            }
-
-            list.tamanho -= 1;
-        }
-
-    */
-
-
-
-
     // listar
     public void listar(){
-        for(int macaco = 0 ; macaco < tamanhoF; macaco++ ){
-           System.out.println(this.cad[macaco]);
+        for(int s = 0 ; s < tamanhoF; s++ ){
+           System.out.println(this.cad[s]);
         }
     }
     
