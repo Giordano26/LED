@@ -8,6 +8,5 @@
 public class Disciplina {
  
     // Atribitos
-    private Texto nomeDisc; //stef putinha
-    
+    private Texto nomeDisc; 
 }
