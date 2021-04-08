@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Aluno
+comment0.text=\r\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ Aluno\ aqui.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (n\u00FAmero\ de\ vers\u00E3o\ ou\ data)\r\n
+comment1.params=nome\ idade\ ra\ anoIng\ periodo
+comment1.target=Aluno(java.lang.String,\ int,\ java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getRa()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4
