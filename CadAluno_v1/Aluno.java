@@ -21,13 +21,13 @@ public class Aluno extends Pessoa {
         
     }
     public String getRa(){
-        return this.ra;
+        return this.ra.toUpperCase();
     }
     
     public String toString(){
         // formata os dados do aluno
         
-        String dados = "Nome: " + super.toString() +" Ra: " + getRa();
+        String dados = "Nome: " + super.toString() +" RA: " + getRa();
         
         return dados;
     }

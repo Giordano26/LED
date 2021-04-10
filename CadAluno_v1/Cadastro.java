@@ -18,24 +18,24 @@ public class Cadastro{
     
     // inserir
     public boolean inserir (Aluno a){
-        this.cad[tamanhoF] = a;
-        tamanhoF += 1;
+        this.cad[this.tamanhoF] = a;
+        this.tamanhoF += 1;
 
         return true;
     }
     // remover
     public boolean remover (String ra){
         
-        for(int s = 0 ; s < tamanhoF; s++ ){
-            String primatoide = this.cad[s].getRa();
-            if( primatoide.equals(ra) == true){
+        for(int s = 0 ; s < this.tamanhoF; s++ ){
+            String comp = this.cad[s].getRa();
+            if( comp.equals(ra) == true){
                 int index = s;
                 if(this.tamanhoF > 0 && this.tamanhoF >= index ) {
                     for(int n = s; n < this.tamanhoF; n++){
                         this.cad[n] = this.cad[n+1];
 
                     }
-                    tamanhoF--;
+                    this.tamanhoF--;
                 }  
             }
         }
@@ -44,8 +44,15 @@ public class Cadastro{
 
     // listar
     public void listar(){
-        for(int s = 0 ; s < tamanhoF; s++ ){
-           System.out.println(this.cad[s]);
+        if(this.tamanhoF == 0){
+            System.out.println("LISTA VAZIA!!!");
+        }
+        else{
+            System.out.println("=============================");
+        for(int s = 0 ; s < this.tamanhoF; s++ ){
+           System.out.println((s+1)+" - "+this.cad[s]);
+        }
+            System.out.println("=============================");
         }
     }
     
