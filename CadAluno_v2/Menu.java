@@ -5,7 +5,7 @@ public class Menu {
 
     private void UI(){
         System.out.println(
-            "===== Agenda V1.2 =====\n"+
+            "===== Agenda V2.3 =====\n"+
             "1 - Inserir\n"+
             "2 - Remover\n"+
             "3 - Listar\n"+
@@ -17,8 +17,6 @@ public class Menu {
         int c;
         Scanner  sc = new Scanner(System.in);
         c = sc.nextInt();
-        
-        
 
         return c;
     }
@@ -39,14 +37,6 @@ public class Menu {
         op = grabInt();
         return op;
 
-    }
-
-    public int nCadastro(){
-        int c;
-        System.out.println("Forneça o numero de cadastros:");
-        c = grabInt();
-
-        return c;
     }
 
 
