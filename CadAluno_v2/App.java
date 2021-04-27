@@ -11,10 +11,21 @@ public class App{
 
         Menu menu = new Menu(); //cria o objeto de menu (interface)
 
-        Cadastro cadAlunos = new Cadastro(0); //cadastro começa com 0 pois aumenta conforme cada inserção
+        Cadastro cadAlunos = new Cadastro(); //cadastro começa com 0 pois aumenta conforme cada inserção
 
         while(true){
-            int op = menu.grabOP();
+            int op = 0;
+            do{
+                try{
+                    op = menu.grabOP();
+                    break;
+
+                }catch(Exception e){
+                    System.out.println("Opção inválida!");
+                    continue;
+                }
+
+            }while(true);
             switch(op){
 
                 // Inserir na agenda 

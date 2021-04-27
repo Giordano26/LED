@@ -9,7 +9,7 @@ public class Cadastro{
     public VetDin cad;
     
     // construtor
-    Cadastro(int qtde){
+    Cadastro(){
         this.cad = new VetDin(); 
     }
     
