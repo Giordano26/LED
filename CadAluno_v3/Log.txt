@@ -69,3 +69,44 @@ Operação Selecionada:4
 Operação Selecionada:1
 Cadastro realizado: enzo|20|ra8888|2020|3
 Operação Selecionada:4
+Operação Selecionada:3
+Operação Selecionada:2
+Tentativa de remoção de RA:RA
+Operação Selecionada:4
+Operação Selecionada:3
+Operação Selecionada:3
+Operação Selecionada:1
+Cadastro realizado: luca binicio|20|ra299|2020|3
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:3
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:3
+Operação Selecionada:1
+Cadastro realizado: luca binicio|20|ra00298|2020|3
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:3
+Operação Selecionada:3
+Operação Selecionada:2
+Tentativa de remoção de RA:RA00298
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:4
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:4
+Operação Selecionada:4
+Operação Selecionada:3
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:3
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:3
+Operação Selecionada:4

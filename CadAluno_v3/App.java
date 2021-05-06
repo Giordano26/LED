@@ -25,10 +25,6 @@ public class App{
                 File file = new File("Cadastros.txt");
 
                 try {
-                    if(fr == null){
-                    PrintWriter out = new PrintWriter("Cadastros.txt");
-                    out.close();
-                    }
                     fr = new FileReader(file);
                     br = new BufferedReader(fr);
                 } catch(FileNotFoundException ex) {
@@ -54,7 +50,8 @@ public class App{
                         if(st.hasMoreTokens()){
                             nomeS = st.nextToken();
                             if(nomeS.equals("GEIST") || nomeS.equals("")){
-                                br.readLine();
+                                //System.out.println(nomeS);
+                                break;
                             }
                         }else{
                             System.out.println("Erro na leitura do nome");
