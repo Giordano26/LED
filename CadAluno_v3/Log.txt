@@ -1,0 +1,71 @@
+Operação Selecionada:1
+lucas|20|ra029|2020|3
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:6
+Operação Selecionada:3
+Operação Selecionada:5
+Operação Selecionada:3
+Operação Selecionada:1
+antonio mello|20|ra020|2020|3
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:6
+Operação Selecionada:5
+Operação Selecionada:3
+Operação Selecionada:6
+Operação Selecionada:1
+Cadastro realizado: lucas benicio|20|ra0029|2020|3
+Operação Selecionada:4
+Operação Selecionada:6
+Operação Selecionada:1
+Cadastro realizado: Antonio|20|ra200|3|3
+Operação Selecionada:3
+Operação Selecionada:6
+Operação Selecionada:1
+Cadastro realizado: antonio|20|ra020|2020|3
+Operação Selecionada:4
+Operação Selecionada:6
+Operação Selecionada:5
+Operação Selecionada:3
+Operação Selecionada:5
+Operação Selecionada:3
+Operação Selecionada:5
+Operação Selecionada:3
+Operação Selecionada:6
+Operação Selecionada:3
+Operação Selecionada:5
+Operação Selecionada:6
+Operação Selecionada:3
+Operação Selecionada:5
+Operação Selecionada:3
+Operação Selecionada:5
+Operação Selecionada:3
+Operação Selecionada:6
+Operação Selecionada:5
+Operação Selecionada:3
+Operação Selecionada:1
+Cadastro realizado: twelves|20|ra22|2020|3
+Operação Selecionada:4
+Operação Selecionada:6
+Operação Selecionada:1
+Cadastro realizado: lucas|20|ra22|2020|3
+Operação Selecionada:1
+Cadastro realizado: alejozala|20|ra0222|2020|3
+Operação Selecionada:3
+Operação Selecionada:6
+Operação Selecionada:5
+Operação Selecionada:6
+Operação Selecionada:6
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:5
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:3
+Operação Selecionada:4
+Operação Selecionada:1
+Cadastro realizado: enzo|20|ra8888|2020|3
+Operação Selecionada:4
