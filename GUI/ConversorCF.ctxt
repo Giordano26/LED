@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ConversorCF
+comment1.params=titulo
+comment1.target=ConversorCF(java.lang.String)
+comment2.params=ae
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+numComments=3

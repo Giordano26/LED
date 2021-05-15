@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=IPilha
+comment0.text=\r\n\ Define\ a\ interface\ para\ ADT\ Pilha\ (FILO).\r\n\ void\ push(Item\ item)\ -\ insere\ item\ na\ pilha\r\n\ Item\ pop()\ -\ remove\ o\ Item\ mais\ recente\ da\ pilha\r\n\ boolean\ isEmpty()\ -\ esta\ pilha\ est\u00E1\ vazia?\r\n\ int\ size()\ -\ n\u00FAmero\ de\ Items\ na\ pilha\r\n\r\n\ @author\ Julio\ Arakaki\r\n\ @version\ 06/05/2020\r\n
+comment1.params=o
+comment1.target=void\ inserir(java.lang.Object)
+comment2.params=
+comment2.target=java.lang.Object\ remover()
+comment3.params=
+comment3.target=boolean\ estaVazia()
+comment4.params=
+comment4.target=int\ tamanho()
+comment5.params=
+comment5.target=java.lang.Object\ topo()
+numComments=6

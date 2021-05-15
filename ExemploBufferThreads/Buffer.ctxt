@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Buffer
+comment0.text=\r\n\ Implementa\ um\ buffer\ de\ caracteres\ usando\ thread\r\n\ @author\ LED\r\n\ @version\ 1.0\r\n
+comment1.params=tam
+comment1.target=Buffer(int)
+comment1.text=\r\n\ Construtor\r\n\ @param\ tam\ tamanho\ do\ buffer\r\n
+comment2.params=c
+comment2.target=void\ put(java.lang.String)
+comment2.text=\r\n\ Coloca\ uma\ String\ no\ buffer\ (de\ maneira\ sincronizada)\r\n\ @param\ s\ \ string\ a\ ser\ inserido\ no\ buffer\r\n
+comment3.params=
+comment3.target=java.lang.String\ get()
+comment3.text=\r\n\ Coloca\ uma\ String\ no\ buffer\ (de\ maneira\ sincronizada)\r\n\ @return\ string\ retirado\ do\ buffer\r\n
+numComments=4

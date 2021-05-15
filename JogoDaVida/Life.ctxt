@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Life
+comment1.params=linhas\ colunas
+comment1.target=Life(int,\ int)
+comment10.params=
+comment10.target=void\ lerEstado()
+comment11.params=
+comment11.target=void\ salvarEstado()
+comment2.params=
+comment2.target=Celula[][]\ getAmbiente()
+comment3.params=ambiente
+comment3.target=void\ setAmbiente(Celula[][])
+comment4.params=
+comment4.target=void\ iniciarAmbiente()
+comment5.params=linha\ coluna
+comment5.target=boolean\ devolverValor(int,\ int)
+comment6.params=linha\ coluna
+comment6.target=int\ calcularVizinhos(int,\ int)
+comment7.params=
+comment7.target=void\ calcularProximaGeracao()
+comment8.params=novoMapa
+comment8.target=void\ copiarMapa(Life)
+comment9.params=
+comment9.target=void\ limparAmbiente()
+numComments=12

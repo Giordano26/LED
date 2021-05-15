@@ -6,12 +6,16 @@ Lucas Benicio Lima
 Stefano Martins Ferreira Giordano
 */
 
+//ATENÇÃO --> NÃO DELETAR O ARQUIVO Cadastros.txt
+
 import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.Files;
 import java.util.StringTokenizer;
 
+
+//ATENÇÃO --> NÃO DELETAR O ARQUIVO Cadastros.txt
 public class App{
     public static void main(String args[]){
 

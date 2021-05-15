@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Textos
+comment0.text=\r\n\ Imprimir\ textos\ atraves\ de\ uma\ thread\r\n\ @author\ LED\r\n\ @version\ 1.0\r\n
+comment1.params=texto\ nVezes
+comment1.target=Textos(java.lang.String,\ int)
+comment1.text=\r\n\ Construtor\r\n\ @param\ texto\ texto\ a\ ser\ impresso\r\n\ @param\ nVezes\ numero\ de\ vezes\r\n
+comment2.params=
+comment2.target=void\ imprimirTextos()
+comment2.text=\r\n\ Imprimir\ os\ textos\r\n
+comment3.params=
+comment3.target=void\ run()
+comment3.text=\r\n\ Metodo\ executado\ quando\ a\ thread\ eh\ "iniciada"\r\n
+numComments=4
