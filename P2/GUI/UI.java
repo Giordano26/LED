@@ -21,7 +21,7 @@ public class UI {
     }
     
     public void showMsg(String msg){ //Mostrar msg genérica
-       JOptionPane.showMessageDialog(null, msg, "Josephus 1.0", JOptionPane.PLAIN_MESSAGE);
+       JOptionPane.showMessageDialog(null, msg, "Josephus 2.0", JOptionPane.PLAIN_MESSAGE);
     }
 
     public void error(){ //mostra msg para tratamento de erro
