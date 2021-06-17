@@ -24,16 +24,12 @@ import java.util.TimerTask;
 
 public class GUI extends JFrame implements ActionListener{
 
-   JTextField numP = new JTextField("Insira um numero");
-   JTextField inter = new JTextField("Insira um intervalo");
-   JButton start = new JButton("Iniciar");
-   JPanel gamePanel = new JPanel(new GridLayout(20,10));
-   
-   
+   JTextField numP = new JTextField("Insira um numero"); //textbox para o input de numero de pessoas 
+   JTextField inter = new JTextField("Insira um intervalo"); //textbox para o intervalo de salto
+   JButton start = new JButton("Iniciar"); //botão de iniciar o jogo
+   JPanel gamePanel = new JPanel(new GridLayout(20,10)); //panel que ficarão os OwO
 
-
-
-    static Timer timer = new Timer();
+   static Timer timer = new Timer(); //instanciação do timer para a rotina de interrupção 
 
     public GUI(String title){
         super(title); //seta nome da janela, construtor da classe pai
@@ -89,11 +85,11 @@ public class GUI extends JFrame implements ActionListener{
         try{
             if(e.getActionCommand()=="Iniciar"){
                 try{
-                    gamePanel.removeAll();
+                    gamePanel.removeAll(); //zera o painel com os OwO
                     int n = Integer.parseInt(numP.getText());
                     int m = Integer.parseInt(inter.getText());
-                    if((n >= m + 1 && n > 2 && m > 1)){
-                        JosephusTwo j2 = new JosephusTwo(m);
+                    if((n >= m + 1 && n > 2 && m > 1)){ //Test case para verificar se enquadra nas regras do jogo ou é um valido
+                    JosephusTwo j2 = new JosephusTwo(m);
                     j2.preencher(n);
                     int k = 0;
                     No nova;
@@ -111,7 +107,7 @@ public class GUI extends JFrame implements ActionListener{
 
 
 
-                    TimerTask task = new TimerTask(){
+                    TimerTask task = new TimerTask(){ //time task para ocorrer a regra de jogo a cada tempo pre-determinado
                         @Override
 
                         public void run(){
@@ -128,10 +124,11 @@ public class GUI extends JFrame implements ActionListener{
                                     ult = ult.getProximo();
                                 }while(ultP.getStatus() == false);
 
-                                Josephus j = new Josephus();
-                                j.JosephusMain(m, n);
+                                Josephus j = new Josephus(); //resultado final,  via JOptionPane
+                                j.JosephusMain(m, n); //outra função de josephus, mais rápida...
 
-                                cancel();
+
+                                cancel(); //cancela a rotina de timer task
 
                             }
                         }

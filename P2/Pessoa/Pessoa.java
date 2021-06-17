@@ -24,20 +24,20 @@ public class Pessoa {
 
     }
 
-    public int getNum(){
+    public int getNum(){ //função de retorno de numero de pessoas
         return nPessoas;
     }
 
-    public boolean getStatus(){
+    public boolean getStatus(){ //função de retorno de status do construtor pessoa
         return pViva;
     }
 
-    public JLabel getLabel(){
+    public JLabel getLabel(){ //retorna a label, OwO ou XwX
         return label;
     }
 
-    public void changeStatus(){
-        pViva = false;
+    public void changeStatus(){ //função de mudança de status, matar a pessoa OwO --> XwX
+        pViva = false; 
         label.setFont(new Font("Comic Sans", Font.BOLD, 15));
         label.setText(" XwX ");
     }

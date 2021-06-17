@@ -10,10 +10,10 @@ public class JosephusTwo {
     int count = 0;
 
     public JosephusTwo(int intervalo){
-        this.intervalo = intervalo;
+        this.intervalo = intervalo; //construtor do intervalo
     }
 
-    public void preencher(int n){
+    public void preencher(int n){ //preenche a lista com as pessoas, N passado pelo usuario
         for(int i = 0; i < n; i++){
 
             Pessoa p = new Pessoa(i,true,new JLabel("O"));
@@ -21,7 +21,7 @@ public class JosephusTwo {
         }
     }
 
-    public int getQtdVivos(){
+    public int getQtdVivos(){ // função para verificar quantos OwO ainda estão vivos
         int qtd = 0;
 
         No atual = lst.getInicio();
@@ -31,7 +31,7 @@ public class JosephusTwo {
             Pessoa p = (Pessoa)atual.getConteudo();
             
             if(p.getStatus())
-                qtd++;
+                qtd++; //incremento para cada pessoa viva
 
         }while(atual != lst.getInicio());
 
@@ -40,7 +40,7 @@ public class JosephusTwo {
 
 
 
-    public boolean run(){
+    public boolean run(){ //logica do jogo
 
         if(getQtdVivos() > 1){
            
@@ -48,12 +48,12 @@ public class JosephusTwo {
             do{
                 No atual = lst.peekNo();
                 p = (Pessoa)atual.getConteudo();
-            }while(p.getStatus() == false);
+            }while(p.getStatus() == false); //pega até chegar em alguma pessoa morta
 
             count++;
 
             if( count == intervalo){
-                p.changeStatus();
+                p.changeStatus(); //se o contador bater com o intervalo é necessária trocar o status da pessoa
 
                 count = 0;
             }
