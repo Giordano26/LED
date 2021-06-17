@@ -1,6 +1,7 @@
 package Pessoa;
 
 import javax.swing.JLabel;
+import java.awt.Font;
 
 
 
@@ -17,7 +18,9 @@ public class Pessoa {
         nPessoas = nums;
         this.label = label;
 
-        label.setText("웃");
+        label.setFont(new Font("Comic Sans", Font.BOLD, 15));
+
+        label.setText(" OwO ");
 
     }
 
@@ -35,6 +38,7 @@ public class Pessoa {
 
     public void changeStatus(){
         pViva = false;
-        label.setText("X");
+        label.setFont(new Font("Comic Sans", Font.BOLD, 15));
+        label.setText(" XwX ");
     }
 }
