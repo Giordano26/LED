@@ -92,7 +92,8 @@ public class GUI extends JFrame implements ActionListener{
                     gamePanel.removeAll();
                     int n = Integer.parseInt(numP.getText());
                     int m = Integer.parseInt(inter.getText());
-                    JosephusTwo j2 = new JosephusTwo(m);
+                    if((n >= m + 1 && n > 2 && m > 1)){
+                        JosephusTwo j2 = new JosephusTwo(m);
                     j2.preencher(n);
                     int k = 0;
                     No nova;
@@ -136,10 +137,12 @@ public class GUI extends JFrame implements ActionListener{
                         }
                     };
 
-
                     timer.schedule(task, 0, 25);
-
-
+                        
+                    }else{
+                        UI ui = new UI();
+                        ui.error();
+                    }
                     
                 }catch(Exception er){
                     UI ui = new UI();
