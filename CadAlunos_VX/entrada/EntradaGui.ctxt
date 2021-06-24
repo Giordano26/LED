@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=EntradaGui
-comment0.text=\r\n\ Escreva\ a\ descri\u00E7\u00E3o\ da\ classe\ EntradaGui\ aqui.\r\n\ \r\n\ @author\ (seu\ nome)\ \r\n\ @version\ (n\u00FAmero\ de\ vers\u00E3o\ ou\ data)\r\n
-comment1.params=
-comment1.target=void\ lerDados()
-comment2.params=
-comment2.target=java.lang.String\ lerNome()
-numComments=3
