@@ -4,7 +4,6 @@ import javax.swing.JLabel;
 import java.awt.Font;
 
 
-
 public class Pessoa {
     private int nPessoas;
     private boolean pViva;
